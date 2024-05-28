@@ -2,13 +2,16 @@
 
 `FoundYou` is a powerful command-line application designed for Open Source Intelligence (OSINT) and social engineering purposes. It allows users to search and display voter records by state and name, leveraging publicly available voter databases to gather valuable information.
 
+This app is simply a CLI wrapper/implementation of Stephen P. Morse's web app: https://stevemorse.org/voterrecords/voterrecords.html.
+
+
 ## Installation
 
 Add `foundyou` to your Cargo.toml:
 
 ```toml
 [dependencies]
-foundyou = "0.1.3"
+foundyou = "0.1.4"
 ```
 
 Then run:
@@ -96,4 +99,3 @@ Contributions are welcome! Please open an issue or submit a pull request on GitH
 ## License
 
 This project is licensed under the MIT License.
-```
