@@ -1,0 +1,18 @@
+[package]
+name = "foundyou"
+version = "0.1.3"
+edition = "2021"
+description = "A powerful command-line application for OSINT and social engineering."
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/cybrly/foundyou"
+homepage = "https://github.com/cybrly/foundyou"
+keywords = ["OSINT", "social+engineering", "pentest"]
+categories = ["command-line-utilities", "cli", "security"]
+
+[dependencies]
+clap = { version = "4.1.1", features = ["derive"] }
+prettytable = "0.10.0"
+reqwest = { version = "0.11", features = ["blocking", "rustls-tls"] }
+scraper = "0.12"
+tokio = { version = "1", features = ["full"] }
